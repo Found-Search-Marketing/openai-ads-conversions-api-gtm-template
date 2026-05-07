@@ -1154,7 +1154,7 @@ ___SERVER_PERMISSIONS___
           "key": "environments",
           "value": {
             "type": 1,
-            "string": "any"
+            "string": "all"
           }
         }
       ]
@@ -1249,35 +1249,95 @@ ___SERVER_PERMISSIONS___
               {
                 "type": 3,
                 "mapKey": [
-                  { "type": 1, "string": "name" },
-                  { "type": 1, "string": "domain" },
-                  { "type": 1, "string": "path" },
-                  { "type": 1, "string": "secure" },
-                  { "type": 1, "string": "session" }
+                  {
+                    "type": 1,
+                    "string": "name"
+                  },
+                  {
+                    "type": 1,
+                    "string": "domain"
+                  },
+                  {
+                    "type": 1,
+                    "string": "path"
+                  },
+                  {
+                    "type": 1,
+                    "string": "secure"
+                  },
+                  {
+                    "type": 1,
+                    "string": "session"
+                  }
                 ],
                 "mapValue": [
-                  { "type": 1, "string": "__oppref" },
-                  { "type": 1, "string": "*" },
-                  { "type": 1, "string": "*" },
-                  { "type": 1, "string": "any" },
-                  { "type": 1, "string": "any" }
+                  {
+                    "type": 1,
+                    "string": "__oppref"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "any"
+                  },
+                  {
+                    "type": 1,
+                    "string": "any"
+                  }
                 ]
               },
               {
                 "type": 3,
                 "mapKey": [
-                  { "type": 1, "string": "name" },
-                  { "type": 1, "string": "domain" },
-                  { "type": 1, "string": "path" },
-                  { "type": 1, "string": "secure" },
-                  { "type": 1, "string": "session" }
+                  {
+                    "type": 1,
+                    "string": "name"
+                  },
+                  {
+                    "type": 1,
+                    "string": "domain"
+                  },
+                  {
+                    "type": 1,
+                    "string": "path"
+                  },
+                  {
+                    "type": 1,
+                    "string": "secure"
+                  },
+                  {
+                    "type": 1,
+                    "string": "session"
+                  }
                 ],
                 "mapValue": [
-                  { "type": 1, "string": "_gtmeec" },
-                  { "type": 1, "string": "*" },
-                  { "type": 1, "string": "*" },
-                  { "type": 1, "string": "any" },
-                  { "type": 1, "string": "any" }
+                  {
+                    "type": 1,
+                    "string": "_gtmeec"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "any"
+                  },
+                  {
+                    "type": 1,
+                    "string": "any"
+                  }
                 ]
               }
             ]
@@ -1326,19 +1386,31 @@ ___SERVER_PERMISSIONS___
               {
                 "type": 3,
                 "mapKey": [
-                  { "type": 1, "string": "headerName" }
+                  {
+                    "type": 1,
+                    "string": "headerName"
+                  }
                 ],
                 "mapValue": [
-                  { "type": 1, "string": "trace-id" }
+                  {
+                    "type": 1,
+                    "string": "trace-id"
+                  }
                 ]
               },
               {
                 "type": 3,
                 "mapKey": [
-                  { "type": 1, "string": "headerName" }
+                  {
+                    "type": 1,
+                    "string": "headerName"
+                  }
                 ],
                 "mapValue": [
-                  { "type": 1, "string": "referer" }
+                  {
+                    "type": 1,
+                    "string": "referer"
+                  }
                 ]
               }
             ]
@@ -1356,6 +1428,20 @@ ___SERVER_PERMISSIONS___
           "value": {
             "type": 1,
             "string": "specific"
+          }
+        },
+        {
+          "key": "headerAccess",
+          "value": {
+            "type": 1,
+            "string": "specific"
+          }
+        },
+        {
+          "key": "queryParameterAccess",
+          "value": {
+            "type": 1,
+            "string": "any"
           }
         }
       ]
@@ -1380,16 +1466,40 @@ ___SERVER_PERMISSIONS___
               {
                 "type": 3,
                 "mapKey": [
-                  { "type": 1, "string": "projectId" },
-                  { "type": 1, "string": "datasetId" },
-                  { "type": 1, "string": "tableId" },
-                  { "type": 1, "string": "operation" }
+                  {
+                    "type": 1,
+                    "string": "projectId"
+                  },
+                  {
+                    "type": 1,
+                    "string": "datasetId"
+                  },
+                  {
+                    "type": 1,
+                    "string": "tableId"
+                  },
+                  {
+                    "type": 1,
+                    "string": "operation"
+                  }
                 ],
                 "mapValue": [
-                  { "type": 1, "string": "*" },
-                  { "type": 1, "string": "*" },
-                  { "type": 1, "string": "*" },
-                  { "type": 1, "string": "write" }
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "write"
+                  }
                 ]
               }
             ]
