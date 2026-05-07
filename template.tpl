@@ -1167,6 +1167,19 @@ ___SERVER_PERMISSIONS___
   {
     "instance": {
       "key": {
+        "publicId": "read_container_data",
+        "versionId": "1"
+      },
+      "param": []
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
+    "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
         "publicId": "send_http",
         "versionId": "1"
       },
