@@ -1,7 +1,7 @@
 homepage: https://github.com/Found-Search-Marketing/openai-ads-conversions-api-gtm-template
 documentation: https://github.com/Found-Search-Marketing/openai-ads-conversions-api-gtm-template/blob/main/README.md
 versions:
-  - sha: 3bf5de9523e731f285d63c6ed49ade4a220e028a
+  - sha: 58ba86f893b4a3e34d576aa8917d47523a0ccdc9
     changeNotes: |
       Initial release. Sends server-side conversion events to the OpenAI Ads
       Conversions API at https://bzr.openai.com/v1/events. Supports standard
